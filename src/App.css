@@ -71,7 +71,7 @@
   cursor: pointer;
   transition: 0.2s;
 }
-button:hover {
+.button:hover {
   background-color: rgb(7, 130, 246);
   font-size: 22px;
 }
@@ -259,55 +259,6 @@ button:hover {
   width: 95%;
 }
 
-/* our works */
-.our-works {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-.all-works {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  align-items: center;
-}
-
-.works-image-div {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  height: 200px;
-  width: 200px;
-  background-color: var(--main-color);
-  padding: 10px;
-  border-radius: 10px;
-  margin: 10px 10px;
-}
-.works-image {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  position: relative;
-  padding: 15px;
-  height: 85%;
-  width: 100%;
-  background-color: white;
-  border-radius: 10px;
-  overflow: hidden;
-}
-.works-image img {
-  position: absolute;
-  height: auto;
-  width: 90%;
-}
-.works-text {
-  margin: 10px 0;
-  color: white;
-  font-size: 20px;
-  font-weight: bold;
-}
 /* we-work-with */
 .we-work-with {
   display: flex;
