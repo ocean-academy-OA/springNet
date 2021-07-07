@@ -1,6 +1,7 @@
 import "./App.css";
+
 import "bootstrap/dist/css/bootstrap.css";
-import OANavbar from "./components/Navbar";
+import OANavbar from "./components/navbar/Navbar";
 
 function App() {
   return (

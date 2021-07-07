@@ -14,7 +14,7 @@
 }
 
 .bg-navbar {
-  background-color: rgb(255, 255, 255);
+  background-color: rgb(0, 0, 0);
 }
 .brand-align {
   display: block;
@@ -27,16 +27,18 @@
 }
 .home-container {
   position: relative;
-  height: 100vh;
+  height: 70vh;
   width: 100%;
-  background-image: url("./components/images/Slide1.jpg");
+  background-image: url("./components/images/dev1.jpg");
   background-size: cover;
+
+  object-fit: cover;
 }
 
 .opacity-bg {
   height: 100%;
   width: 100%;
-  background-color: rgba(0, 0, 0, 0.781);
+  background-color: rgba(0, 0, 0, 0.774);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -53,6 +55,7 @@
   color: white;
   font-weight: bold;
   margin: 25px;
+  /* background-color: rgba(0, 0, 0, 0.89); */
 }
 .button {
   outline: none;
@@ -72,6 +75,7 @@ button:hover {
   background-color: rgb(7, 130, 246);
   font-size: 22px;
 }
+
 @media (max-width: 650px) {
   .home-container {
     background-position: center;
@@ -393,6 +397,15 @@ button:hover {
   color: var(--secondery-color);
 }
 .modal-div {
-  height: 600px;
+  height: 80vh;
   width: 100%;
+}
+.iframe {
+  width: 100%;
+  height: 100%;
+}
+.nav-shadow {
+  box-shadow: 5px 10px #888888;
+  background-color: red;
+  padding: 10px;
 }

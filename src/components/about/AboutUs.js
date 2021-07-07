@@ -1,8 +1,7 @@
 import { Carousel } from "react-bootstrap";
 import React from "react";
 import CarouselSlide from "./CarouselSlide";
-import SectionTitle from "./SectionTitle";
-import CImage from "./images/Slide1.jpg";
+import SectionTitle from "./../common/SectionTitle";
 
 export default function AboutUs() {
   return (

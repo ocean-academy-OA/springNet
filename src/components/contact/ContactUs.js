@@ -1,5 +1,5 @@
 import React from "react";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "./../common/SectionTitle";
 import { FaPhone, FaEnvelope } from "react-icons/fa";
 
 export default function ContactUs() {

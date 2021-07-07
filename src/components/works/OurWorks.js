@@ -1,5 +1,5 @@
 import React from "react";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "./../common/SectionTitle";
 import WorkCards from "./WorkCards";
 
 export default function OurWorks() {

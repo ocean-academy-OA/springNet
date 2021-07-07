@@ -1,6 +1,6 @@
 import React from "react";
-import OA from "./images/logo.png";
-import Patchi from "./images/patchi.png";
+import OA from "./../images/logo.png";
+import Patchi from "./../images/patchi.png";
 
 export default function WorkCards() {
   return (

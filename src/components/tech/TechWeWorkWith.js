@@ -1,8 +1,8 @@
 import React from "react";
-import SectionTitle from "./SectionTitle";
+import SectionTitle from "./../common/SectionTitle";
 import Technologies from "./Technologies";
-import Flutter from "./images/course/Flutterf.png";
-import { courses } from "./images/course/courses";
+
+import { courses } from "./../images/course/courses";
 
 export default function TechWeWorkWith() {
   return (
