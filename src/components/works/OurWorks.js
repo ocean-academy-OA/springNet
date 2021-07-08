@@ -19,8 +19,8 @@ export default function OurWorks() {
         ))}
       </Carousel> */}
 
-      {workList.map((work) => (
-        <div className="slid-div">
+      {workList.map((work, index) => (
+        <div key={index} className="slid-div">
           <WorkCards work={work} />
         </div>
       ))}

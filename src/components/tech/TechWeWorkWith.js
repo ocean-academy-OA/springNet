@@ -1,7 +1,7 @@
 import React from "react";
 import SectionTitle from "./../common/SectionTitle";
 import Technologies from "./Technologies";
-
+import "./tech.css";
 import { courses } from "./../images/course/courses";
 
 export default function TechWeWorkWith() {

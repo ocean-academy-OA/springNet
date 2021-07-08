@@ -15,7 +15,7 @@ export default function OANavbar() {
     <div>
       <Navbar
         bg="navbar"
-        variant="light"
+        variant="dark"
         sticky="top"
         expand="md"
         collapseOnSelect
@@ -27,7 +27,7 @@ export default function OANavbar() {
         </Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse>
-          <Nav className="ml-auto h5 " variant="pills">
+          <Nav className="ml-auto h5 text-left " variant="pills">
             <Nav.Link href="#home" className="text-light">
               Home
             </Nav.Link>

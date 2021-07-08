@@ -1,0 +1,41 @@
+/* we-work-with */
+.we-work-with {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.all-tech {
+  padding: 20px;
+  width: 60%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+@media (max-width: 1000px) {
+  .all-tech {
+    width: 70%;
+  }
+}
+.Technologies {
+  margin: 20px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  width: 140px;
+  /* background-color: antiquewhite; */
+  border-radius: 10px;
+  overflow: hidden;
+}
+.tech-img {
+  height: 70%;
+  width: 100%;
+  object-fit: contain;
+}
+.tech-name {
+  color: var(--secondery-color);
+  font-size: 20px;
+}

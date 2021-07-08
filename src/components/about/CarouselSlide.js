@@ -9,9 +9,9 @@ export default function CarouselSlide() {
         <p>At Springnet Technology, we call this philosophy 'The Expertise.'</p>
         <div className="all-carousel">
           <Carousel>
-            {carousels.map((carousel) => (
+            {carousels.map((carousel, index) => (
               <Carousel.Item interval={1000}>
-                <div className="div-per-carousel">
+                <div key={index} className="div-per-carousel">
                   <div className="carousel-image-div">
                     <div className="carousel-image">
                       <img src={carousel.image} alt="" />
