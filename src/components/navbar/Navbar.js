@@ -16,7 +16,7 @@ export default function OANavbar() {
       <Navbar
         bg="navbar"
         variant="light"
-        fixed="top"
+        sticky="top"
         expand="md"
         collapseOnSelect
       >
@@ -50,18 +50,15 @@ export default function OANavbar() {
       <div className="content">
         <Home />
         <AboutUs />
-        <br />
+
         <AtYourService />
-        <br />
+
         <OurWorks />
-        <br />
-        <br />
-        <br />
-        <br />
+
         <TechWeWorkWith />
-        <br /> <br /> <br /> <br />
+
         <ContactUs />
-        <br /> <br /> <br /> <br />
+
         <div className="footer-div">
           <div className="footer-text">
             © Copyright Springnet Technologies All Rights Reserved.

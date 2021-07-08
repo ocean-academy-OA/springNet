@@ -9,27 +9,22 @@ export default function AboutUs() {
       <SectionTitle id="About" />
       <div className="about-content-div">
         <p>
-          Springnet Technology is a leading IT firm of Indian origin which aims
-          to deliver unmatched business value to customers through a combination
-          of process excellence, quality frameworks and service delivery
-          innovation. Choose one of our open source, free to download, and easy
-          to use themes! No strings attached!
+          Since 2014, Springnet Technology is one of the prominent IT firm of
+          Indian provenance which intent to relinquish unique work ethics to
+          clients over a coalition of merit, elegant frameworks and resource
+          conveyance modernization based in Pondicherry. Springnet Technology is
+          a team of developers and designers devoted to our commitments,
+          providing results, and striving for the highest quality.
         </p>
         <p>
-          We work to bring together a team of technology, business, and social
-          visionaries. Our objective is to develop an environment of Honesty and
-          Integrity towards our clients, employees, vendors and society at
-          large. We are committed to our customers, partners and have a passion
-          for technology. We take on big challenges, and pride ourselves on
-          seeing them through.
-        </p>
-        <p>
-          We hold ourselves accountable to our Customers, Partners and Employees
-          by honoring our commitments, providing results, and striving for the
-          highest quality Springnet Technology has a team of experts in every
-          field encompassing IT Services and Software Development. Springnet
-          Technology also provides a complete range of services by leveraging
-          our domain and business expertise with leading technology providers.
+          We work to unite a group of innovation, business, and social idealist.
+          Our goal is to foster a habitat of Honesty and Integrity towards our
+          customers, workers, merchants and society unbound. We focus on our
+          clients, accomplices and have a crucifixion for innovation. We take on
+          enormous difficulties, and highly esteem owning them. We are working
+          to turn our passion into booming innovation. We also provide a
+          complete scope of amenities by leveraging our domain and business
+          expertise with leading technology providers.
         </p>
       </div>
       {/* carousel */}
