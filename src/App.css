@@ -208,8 +208,8 @@ body::-webkit-scrollbar-thumb {
 }
 .carousel-image-div {
   margin: 10px;
-  height: 400px;
-  width: 600px;
+  height: 600px;
+  width: 800px;
   background: white;
   border-radius: 10px;
   overflow: hidden;
