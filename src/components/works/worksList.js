@@ -1,3 +1,7 @@
+import oceanAcademy from "../../images/our_works/oa.png";
+import patchi from "../../images/our_works/patchi.jpg";
+import ELearning from "../../images/our_works/e-learning.jpg";
+
 export let workList = [
   {
     companyName: "Ocean Academy",
@@ -6,7 +10,7 @@ export let workList = [
     technologies: "Flutter, Dart, NodeJS, Razorpay API, ",
     category: "Web Development, Web Design",
     appLink: "https://oceanacademy.co.in/",
-    image: "/images/our_works/oa.png",
+    image: oceanAcademy,
   },
   {
     companyName: "Patchi",
@@ -16,7 +20,7 @@ export let workList = [
       " Ruby on Rails, Javascript/jQuery, MySQL, Elastic Search, Amazon EC2, Apache, Phusion Passenger, Amazon S3",
     category: "Web Development, Web Design",
     appLink: "https://oceanacademy.co.in/",
-    image: "/images/our_works/patchi.jpg",
+    image: patchi,
   },
   {
     companyName: "OA E-Learning Portal",
@@ -25,6 +29,6 @@ export let workList = [
     technologies: "Flutter, Dart, NodeJS, Razorpay API, ",
     category: "Web Development, Web Design",
     appLink: "https://oceanacademy.co.in/",
-    image: "/images/our_works/e-learning.jpg",
+    image: ELearning,
   },
 ];
