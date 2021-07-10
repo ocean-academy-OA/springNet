@@ -23,7 +23,7 @@ export default function AtYourService() {
     "Creating mobile applications for android platform using Android and Firebase.",
     "Creating Web application using HTML5, CSS3 and JS Frameworks.",
     "Creating incredible hybrid apps from simple to complex requirements Flutter Framework.",
-    "Our UI/UX design is simplified the interaction between our clients’ target customers and their digital presence. Whether it is on a website, mobile application and desktop application, our designs offer a unique digital experience",
+    "Our designs offer a unique digital experience for all the platforms",
   ];
   const icon = [
     <AiFillAndroid />,

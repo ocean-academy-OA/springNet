@@ -15,9 +15,9 @@ export let workList = [
   {
     companyName: "Patchi",
     description:
-      'Birds are feathered, winged, two-legged, warm blooded, egg-laying vertebrates. There are 9,026 identified species of birds in the world, of which 1,232 are found in India. The "Patchi" app is designed to showcase the real photos from the field along with identification keys, voice, size, and habitats of the birds. The app contains information about terrestrial birds as well as wetland birds in Puducherry.',
+      'The "Patchi" app is designed to showcase the real photos from the field along with identification keys, voice, size, and habitats of the birds. The app contains information about terrestrial birds as well as wetland birds in Puducherry.',
     technologies: "Flutter, Dart, NodeJS, Firebase, SendGird",
-    category: "Android",
+    category: "Mobile Aplication Development",
     appLink:
       "https://play.google.com/store/apps/details?id=in.oceanacademy.puduvai_pakshi&hl=en",
     image: patchi,
@@ -26,7 +26,7 @@ export let workList = [
     companyName: "OA E-Learning Portal",
     description:
       "In OA Live training, students and IT professionals can attend software training from anywhere in the world.User authentication services has been implemented by using OTP verification. We can connect both trainee and trainer through zoom API.Course fee will be collected through online by using razorpay API.",
-    technologies: "Flutter, Dart, NodeJS,Firebase, Razorpay API, ",
+    technologies: "Flutter, Dart, NodeJS,Firebase, Razorpay API, Zoom API ",
     category: "Web Development, Web Design",
     appLink: "https://oceanacademy.co.in/",
     image: ELearning,
