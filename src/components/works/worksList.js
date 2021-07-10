@@ -6,8 +6,8 @@ export let workList = [
   {
     companyName: "Ocean Academy",
     description:
-      "WoodsDeck is a social platform for movie lovers. The app will show a personalized feed that offers exclusive movie photos, trailers and news related to movies and actors you follow. It also has analytics platform to help the movie marketers.",
-    technologies: "Flutter, Dart, NodeJS, Razorpay API, ",
+      "Ocean Academy website is web based application which provides all the course details which they are offering.The exact location has been displayed in google map which is very helpful for the users to identify the address.User can contact  management people by posting their query in contact form. Whenever any query will be posted, it will be notified through email.",
+    technologies: "Flutter, Dart, NodeJS, Firebase, SendGird ",
     category: "Web Development, Web Design",
     appLink: "https://oceanacademy.co.in/",
     image: oceanAcademy,
@@ -15,18 +15,18 @@ export let workList = [
   {
     companyName: "Patchi",
     description:
-      "WoodsDeck is a social platform for movie lovers. The app will show a personalized feed that offers exclusive movie photos, trailers and news related to movies and actors you follow. It also has analytics platform to help the movie marketers.",
-    technologies:
-      " Ruby on Rails, Javascript/jQuery, MySQL, Elastic Search, Amazon EC2, Apache, Phusion Passenger, Amazon S3",
-    category: "Web Development, Web Design",
-    appLink: "https://oceanacademy.co.in/",
+      'Birds are feathered, winged, two-legged, warm blooded, egg-laying vertebrates. There are 9,026 identified species of birds in the world, of which 1,232 are found in India. The "Patchi" app is designed to showcase the real photos from the field along with identification keys, voice, size, and habitats of the birds. The app contains information about terrestrial birds as well as wetland birds in Puducherry.',
+    technologies: "Flutter, Dart, NodeJS, Firebase, SendGird",
+    category: "Android",
+    appLink:
+      "https://play.google.com/store/apps/details?id=in.oceanacademy.puduvai_pakshi&hl=en",
     image: patchi,
   },
   {
     companyName: "OA E-Learning Portal",
     description:
-      "WoodsDeck is a social platform for movie lovers. The app will show a personalized feed that offers exclusive movie photos, trailers and news related to movies and actors you follow. It also has analytics platform to help the movie marketers.",
-    technologies: "Flutter, Dart, NodeJS, Razorpay API, ",
+      "In OA Live training, students and IT professionals can attend software training from anywhere in the world.User authentication services has been implemented by using OTP verification. We can connect both trainee and trainer through zoom API.Course fee will be collected through online by using razorpay API.",
+    technologies: "Flutter, Dart, NodeJS,Firebase, Razorpay API, ",
     category: "Web Development, Web Design",
     appLink: "https://oceanacademy.co.in/",
     image: ELearning,

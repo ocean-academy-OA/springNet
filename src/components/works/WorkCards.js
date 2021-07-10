@@ -18,7 +18,7 @@ export default function WorkCards({ work }) {
           </div>
 
           <div className="category">
-            <span className="lable">Category :</span>
+            <span className="lable">Category : </span>
             {work.category}
           </div>
 
