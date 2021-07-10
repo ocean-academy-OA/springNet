@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.dd6bc4d7.chunk.css",
-    "main.js": "/static/js/main.8663ca0c.chunk.js",
-    "main.js.map": "/static/js/main.8663ca0c.chunk.js.map",
+    "main.js": "/static/js/main.3d30702a.chunk.js",
+    "main.js.map": "/static/js/main.3d30702a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5c7571c3.js",
     "runtime-main.js.map": "/static/js/runtime-main.5c7571c3.js.map",
     "static/css/2.d5e620ed.chunk.css": "/static/css/2.d5e620ed.chunk.css",
@@ -16,7 +16,7 @@
     "static/media/android.9e79cf38.png": "/static/media/android.9e79cf38.png",
     "static/media/angular.283469e1.png": "/static/media/angular.283469e1.png",
     "static/media/bootstrap.1d6ba898.png": "/static/media/bootstrap.1d6ba898.png",
-    "static/media/build more.36ec1211.jpg": "/static/media/build more.36ec1211.jpg",
+    "static/media/build more.c946635a.jpg": "/static/media/build more.c946635a.jpg",
     "static/media/complex tech.128f0de0.jpg": "/static/media/complex tech.128f0de0.jpg",
     "static/media/css3.e5eb1be6.png": "/static/media/css3.e5eb1be6.png",
     "static/media/App.css": "/static/media/dev1.9add4eb9.jpg",
@@ -43,6 +43,6 @@
     "static/css/2.d5e620ed.chunk.css",
     "static/js/2.e051fc4f.chunk.js",
     "static/css/main.dd6bc4d7.chunk.css",
-    "static/js/main.8663ca0c.chunk.js"
+    "static/js/main.3d30702a.chunk.js"
   ]
 }
