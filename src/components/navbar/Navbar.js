@@ -2,7 +2,7 @@ import React from "react";
 import { Nav, Navbar, NavDropdown, NavLink } from "react-bootstrap";
 import "bootstrap/dist/css/bootstrap.css";
 // import logo from "./spring net work page-01.png";
-import logo from "./../images/logo/sn-01.png";
+import logo from "./../images/logo/sn-01.svg";
 import Home from "./../home/Home";
 import AboutUs from "./../about/AboutUs";
 import AtYourService from "./../service/AtYourService";
@@ -22,7 +22,7 @@ export default function OANavbar() {
       >
         <Navbar.Brand>
           <NavLink href="#home" className="">
-            <img src={logo} height="50px" width="auto" />{" "}
+            <img src={logo} width="auto" />{" "}
           </NavLink>
         </Navbar.Brand>
         <Navbar.Toggle />

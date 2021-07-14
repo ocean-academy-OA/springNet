@@ -305,3 +305,7 @@ body::-webkit-scrollbar-thumb {
   background-color: red;
   padding: 10px;
 }
+
+.red {
+  background-color: red;
+}
