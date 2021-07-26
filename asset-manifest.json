@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.d1eb61fc.chunk.css",
-    "main.js": "/static/js/main.0e0852b4.chunk.js",
-    "main.js.map": "/static/js/main.0e0852b4.chunk.js.map",
+    "main.css": "/static/css/main.838a9a91.chunk.css",
+    "main.js": "/static/js/main.7c2e4c37.chunk.js",
+    "main.js.map": "/static/js/main.7c2e4c37.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5c7571c3.js",
     "runtime-main.js.map": "/static/js/runtime-main.5c7571c3.js.map",
     "static/css/2.d5e620ed.chunk.css": "/static/css/2.d5e620ed.chunk.css",
@@ -10,7 +10,7 @@
     "static/js/2.e051fc4f.chunk.js.map": "/static/js/2.e051fc4f.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d5e620ed.chunk.css.map": "/static/css/2.d5e620ed.chunk.css.map",
-    "static/css/main.d1eb61fc.chunk.css.map": "/static/css/main.d1eb61fc.chunk.css.map",
+    "static/css/main.838a9a91.chunk.css.map": "/static/css/main.838a9a91.chunk.css.map",
     "static/js/2.e051fc4f.chunk.js.LICENSE.txt": "/static/js/2.e051fc4f.chunk.js.LICENSE.txt",
     "static/media/Flutterf.13436c61.png": "/static/media/Flutterf.13436c61.png",
     "static/media/android.9e79cf38.png": "/static/media/android.9e79cf38.png",
@@ -36,13 +36,13 @@
     "static/media/reach their goals.bb72348b.jpg": "/static/media/reach their goals.bb72348b.jpg",
     "static/media/react.73ac128a.png": "/static/media/react.73ac128a.png",
     "static/media/sarve their customers.9a4fb1ba.jpg": "/static/media/sarve their customers.9a4fb1ba.jpg",
-    "static/media/sn-01.c243dbaa.svg": "/static/media/sn-01.c243dbaa.svg"
+    "static/media/sn-01.52e6f7d9.svg": "/static/media/sn-01.52e6f7d9.svg"
   },
   "entrypoints": [
     "static/js/runtime-main.5c7571c3.js",
     "static/css/2.d5e620ed.chunk.css",
     "static/js/2.e051fc4f.chunk.js",
-    "static/css/main.d1eb61fc.chunk.css",
-    "static/js/main.0e0852b4.chunk.js"
+    "static/css/main.838a9a91.chunk.css",
+    "static/js/main.7c2e4c37.chunk.js"
   ]
 }
