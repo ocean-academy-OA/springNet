@@ -1,0 +1,47 @@
+.contact-us-form {
+  background-color: rgb(241, 241, 241);
+  padding: 15px;
+  width: 90%;
+  border-radius: 5px;
+}
+.our-info-container {
+  display: flex;
+  align-items: center;
+  justify-items: center;
+}
+.our-info {
+  padding: 5px;
+  position: relative;
+
+  height: 350px;
+  background-color: #0051ad;
+  border-radius: 5px;
+}
+.our-info-title {
+  color: white;
+  font-size: 25px;
+  margin-bottom: 10px;
+}
+/* .user-info {
+} */
+.our-content {
+  height: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.our-icon {
+  margin-right: 10px;
+  font-size: 25px;
+  color: whitesmoke;
+}
+.our-details {
+  display: flex;
+  color: whitesmoke;
+  align-items: center;
+  font-family: "Ubuntu";
+  font-weight: 300;
+}
+.mybtn {
+  width: 100%;
+}

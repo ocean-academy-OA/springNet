@@ -1,6 +1,7 @@
 import React from "react";
 import SectionTitle from "./../common/SectionTitle";
 import { FaPhone, FaEnvelope } from "react-icons/fa";
+import ContactUsForm from "../contactus/ContactUs";
 
 export default function ContactUs() {
   return (
@@ -10,7 +11,8 @@ export default function ContactUs() {
         Ready to start your next project with us? Give us a call or send us an
         email and we will get back to you as soon as possible!
       </div>
-      <div className="cantact-all-info">
+      <ContactUsForm />
+      {/* <div className="cantact-all-info">
         <div className="info-content">
           <div className="info-icon">
             <FaPhone />
@@ -23,7 +25,7 @@ export default function ContactUs() {
           </div>
           <a className="info-text email">info@springnet.in</a>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }

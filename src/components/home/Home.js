@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
 import { FiArrowDownCircle } from "react-icons/fi";
+import ContactUs from "../contactus/ContactUs";
 
 export default function Home() {
   const [smShow, setSmShow] = useState(false);
@@ -21,17 +22,11 @@ export default function Home() {
           onHide={() => setSmShow(false)}
           aria-labelledby="cantact-form"
         >
-          {/* <Modal.Header closeButton>
-            <Modal.Title id="cantact-form">modal title</Modal.Title>
-          </Modal.Header> */}
+          <Modal.Header closeButton>
+            <Modal.Title id="cantact-form">Get In Tuch</Modal.Title>
+          </Modal.Header>
           <Modal.Body>
-            <div className="modal-div">
-              <iframe
-                className="iframe"
-                src="https://docs.google.com/forms/d/e/1FAIpQLSdnKzHqhV7LvtdCWlAUOabCNJ6K6JGBBpVtMNEPmXZGwIVVTw/viewform"
-                frameborder="0"
-              ></iframe>
-            </div>
+            <ContactUs />
           </Modal.Body>
         </Modal>
       </div>

@@ -89,8 +89,7 @@ body::-webkit-scrollbar-thumb {
   transition: 0.2s;
 }
 .button:hover {
-  background-color: rgb(7, 130, 246);
-  font-size: 22px;
+  background-color: rgb(5, 117, 221);
 }
 
 @media (max-width: 650px) {
@@ -241,6 +240,7 @@ body::-webkit-scrollbar-thumb {
 }
 
 /* contact us */
+
 .contact-us {
   display: flex;
   flex-direction: column;
@@ -259,6 +259,7 @@ body::-webkit-scrollbar-thumb {
   font-size: 20px;
   color: var(--secondery-color);
 }
+
 .info-content {
   text-align: center;
 }
@@ -282,6 +283,7 @@ body::-webkit-scrollbar-thumb {
     width: 90%;
   }
 }
+
 /* footer */
 .footer-div {
   width: 100%;
