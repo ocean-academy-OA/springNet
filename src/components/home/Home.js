@@ -1,7 +1,9 @@
 import React, { useState } from "react";
 import { Modal } from "react-bootstrap";
-import { FiArrowDownCircle } from "react-icons/fi";
 import ContactUs from "../contactus/ContactUs";
+import ContactModel from "../ContactModel";
+import { FiArrowDownCircle } from "react-icons/fi";
+import GetQuote from "../contactus/GetQuot";
 
 export default function Home() {
   const [smShow, setSmShow] = useState(false);
@@ -15,7 +17,6 @@ export default function Home() {
         <button className="button" onClick={() => setSmShow(true)}>
           Contact US
         </button>
-
         <Modal
           size="lg"
           show={smShow}
@@ -26,7 +27,7 @@ export default function Home() {
             <Modal.Title id="cantact-form">Get In Tuch</Modal.Title>
           </Modal.Header>
           <Modal.Body>
-            <ContactUs />
+            <GetQuote />
           </Modal.Body>
         </Modal>
       </div>

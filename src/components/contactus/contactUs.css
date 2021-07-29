@@ -1,47 +1,187 @@
-.contact-us-form {
-  background-color: rgb(241, 241, 241);
-  padding: 15px;
-  width: 90%;
-  border-radius: 5px;
+.contect-us-map {
+  width: 100%;
+  height: auto;
+  background: linear-gradient(#f9f7f7, #bebebe);
 }
-.our-info-container {
-  display: flex;
-  align-items: center;
-  justify-items: center;
-}
-.our-info {
-  padding: 5px;
-  position: relative;
-
-  height: 350px;
-  background-color: #0051ad;
-  border-radius: 5px;
-}
-.our-info-title {
-  color: white;
-  font-size: 25px;
-  margin-bottom: 10px;
-}
-/* .user-info {
-} */
-.our-content {
-  height: 85%;
+.map-div {
+  padding: 20px;
   display: flex;
   flex-direction: column;
+  justify-content: center;
   align-items: center;
 }
-.our-icon {
-  margin-right: 10px;
-  font-size: 25px;
-  color: whitesmoke;
+.map {
+  width: 50%;
+  height: auto;
 }
-.our-details {
-  display: flex;
-  color: whitesmoke;
-  align-items: center;
-  font-family: "Ubuntu";
-  font-weight: 300;
+.address {
+  height: 50px;
+  width: 50%;
+  position: relative;
 }
-.mybtn {
+.hr {
+  position: absolute;
+  background-color: white;
+  height: 5px;
   width: 100%;
+  top: 50%;
+  transform: translateY(-50%);
+  box-shadow: 3px 2px 8px rgba(0, 0, 0, 0.281);
+}
+.dots {
+  position: absolute;
+  width: 100%;
+  height: 80%;
+  top: 50%;
+  transform: translateY(-50%);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.dot {
+  height: 25px;
+  width: 25px;
+  /* background: linear-gradient(#ff636e, #fd1951); */
+  border-radius: 50%;
+}
+.dot img {
+  position: absolute;
+  transform: translateX(-50%);
+  width: 40px;
+  border-radius: 2px;
+}
+.dot:nth-child(1) {
+  /* background: linear-gradient(#8cc6f0, #8c91f0); */
+  padding-top: 2px;
+}
+.dot:nth-child(2) {
+  /* background: linear-gradient(#e246f0, #8c46f0); */
+  transform: translateX(50%);
+}
+.dot:nth-child(3) {
+  /* background: linear-gradient(#8cc6f0, #8c91f0); */
+  padding-top: 4px;
+  transform: translateX(50%);
+}
+.location {
+  /* position: absolute; */
+  top: 100%;
+  width: 50%;
+
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+}
+.location .content {
+  background: blue;
+  width: calc(100% / 3);
+  height: auto;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-align: left;
+}
+.icons {
+  /* font-size: 20px;
+  margin: 0 5px; */
+}
+.location .content:nth-child(1) {
+  background: linear-gradient(#ff636e, #fd1951);
+}
+.location .content:nth-child(2) {
+  background: linear-gradient(#e246f0, #8c46f0);
+}
+.location .content:nth-child(3) {
+  background: linear-gradient(#8cc6f0, #8c91f0);
+}
+.location .content:nth-child(1) {
+  transform: translateX(-50%);
+  background: linear-gradient(#ff636e, #fd1951);
+}
+
+.location .content:nth-child(3) {
+  transform: translateX(50%);
+  background: linear-gradient(#8cc6f0, #8c91f0);
+}
+.social-media {
+  margin: 20px;
+  font-size: 40px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.social-media .social-icon {
+  margin: 0 10px;
+  cursor: pointer;
+}
+.social-media .social-icon:nth-child(1) {
+  color: rgb(0, 60, 156);
+}
+.social-media .social-icon:nth-child(2) {
+  color: rgb(4, 157, 228);
+}
+.social-media .social-icon:nth-child(3) {
+  color: rgb(0, 77, 107);
+}
+
+@media (max-width: 1200px) {
+  .location .content {
+    width: calc(100% / 3.3);
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  .map {
+    width: 80%;
+  }
+  .location {
+    width: 60%;
+    height: auto;
+  }
+  .address {
+    position: relative;
+    bottom: 0%;
+    width: 60%;
+  }
+}
+
+@media (max-width: 900px) {
+  .map {
+    width: 100%;
+  }
+  .location {
+    width: 80%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: start;
+  }
+  .location .content {
+    width: 80%;
+
+    margin-bottom: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+  .location .content:nth-child(1) {
+    background: linear-gradient(#ff636e, #fd1951);
+
+    transform: translateX(0);
+  }
+  .location .content:nth-child(2) {
+    background: linear-gradient(#e246f0, #8c46f0);
+
+    transform: translateX(0);
+  }
+  .location .content:nth-child(3) {
+    background: linear-gradient(#8cc6f0, #8c91f0);
+
+    transform: translateX(0);
+  }
+
+  .address {
+    display: none;
+  }
 }
