@@ -102,7 +102,7 @@
 .location .content:nth-child(3) {
   transform: translateX(50%);
   background: linear-gradient(#8cc6f0, #8c91f0);
-}
+} /* 
 .social-media {
   margin: 20px;
   font-size: 40px;
@@ -123,7 +123,7 @@
 }
 .social-media .social-icon:nth-child(3) {
   color: rgb(0, 77, 107);
-}
+} */
 
 @media (max-width: 1200px) {
   .location .content {

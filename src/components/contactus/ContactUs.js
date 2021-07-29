@@ -3,11 +3,11 @@ import React from "react";
 import { ImLocation2 } from "react-icons/im";
 import { GrMail } from "react-icons/gr";
 import { FaMobileAlt } from "react-icons/fa";
-import {
-  TiSocialTwitter,
-  TiSocialFacebook,
-  TiSocialLinkedin,
-} from "react-icons/ti";
+// import {
+//   TiSocialTwitter,
+//   TiSocialFacebook,
+//   TiSocialLinkedin,
+// } from "react-icons/ti";
 import "bootstrap/dist/css/bootstrap.css";
 import Map from "./map.svg";
 import "./contactUs.css";
@@ -83,7 +83,7 @@ export default function ContactUs() {
             </p>
           </div>
         </div>
-        <div className="social-media">
+        {/* <div className="social-media">
           <div className="social-icon">
             <TiSocialFacebook />
           </div>{" "}
@@ -94,7 +94,7 @@ export default function ContactUs() {
           <div className="social-icon">
             <TiSocialLinkedin />
           </div>{" "}
-        </div>
+        </div> */}
       </div>
     </div>
   );

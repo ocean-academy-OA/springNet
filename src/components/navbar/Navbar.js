@@ -9,6 +9,11 @@ import AtYourService from "./../service/AtYourService";
 import OurWorks from "./../works/OurWorks";
 import TechWeWorkWith from "./../tech/TechWeWorkWith";
 import ContactUs from "./../contact/ContactUs";
+import {
+  TiSocialTwitter,
+  TiSocialFacebook,
+  TiSocialLinkedin,
+} from "react-icons/ti";
 
 export default function OANavbar() {
   return (
@@ -61,7 +66,16 @@ export default function OANavbar() {
 
         <div className="footer-div">
           <div className="footer-text">
-            © Copyright Springnet Technologies All Rights Reserved.
+            <div> © Copyright Springnet Technologies All Rights Reserved.</div>
+            <div className="links">
+              <div className="social-media">
+                <TiSocialFacebook className="social-icon" />
+
+                <TiSocialTwitter className="social-icon" />
+
+                <TiSocialLinkedin className="social-icon" />
+              </div>
+            </div>
           </div>
         </div>
       </div>
