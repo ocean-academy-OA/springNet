@@ -39,7 +39,7 @@ export default function ContactUs() {
             <p>
               {" "}
               <ImLocation2 className="icons" /> 1473 royal gold dr Columbus,
-              Ohio 43240
+              Ohio 43240, United States
             </p>
 
             <p>
@@ -71,7 +71,7 @@ export default function ContactUs() {
             <p>
               {" "}
               <ImLocation2 className="icons" /> 4/65 Press Road Brooklyn Park
-              -5032 SA{" "}
+              SA-5032, Australia{" "}
             </p>
             <p>
               {" "}

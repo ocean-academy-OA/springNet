@@ -13,3 +13,32 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+.nitifi-sty {
+  position: sticky;
+  top: 0;
+
+  height: 40px;
+  background: white;
+  display: flex;
+  flex-direction: wrap;
+  justify-content: center;
+  align-items: center;
+  z-index: 20;
+}
+.static-nav {
+  font-size: 15px;
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+.contact-link {
+  margin: 0 10px;
+}
+.contact-link img {
+  margin: 0 10px;
+}
+.navbar-sty {
+  position: sticky;
+  top: 40px;
+  z-index: 20;
+}

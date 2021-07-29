@@ -128,8 +128,9 @@ body::-webkit-scrollbar-thumb {
 
 .about-content-div {
   padding: 10px;
-  width: calc((99vw / 1.5));
-  background-color: white;
+  /* width: calc((99vw / 1.5)); */
+  width: 90%;
+  /* background-color: white; */
   border-radius: 15px;
   margin: 20px 0;
 }
@@ -141,8 +142,9 @@ body::-webkit-scrollbar-thumb {
 }
 .about-content-div p {
   margin: 10px 20px;
-  color: var(--secondery-color);
-  font-size: 18px;
+  /* color: var(--secondery-color); */
+  color: white;
+  font-size: 20px;
   text-align: justify;
 }
 
