@@ -20,7 +20,7 @@ code {
   height: 40px;
   background: white;
   display: flex;
-  flex-direction: wrap;
+
   justify-content: center;
   align-items: center;
   z-index: 20;
@@ -30,15 +30,27 @@ code {
   width: 100%;
   display: flex;
   justify-content: space-around;
+  align-items: center;
 }
 .contact-link {
-  margin: 0 10px;
+  margin: 3px 10px;
 }
 .contact-link img {
-  margin: 0 10px;
+  margin: 3px 10px;
 }
 .navbar-sty {
   position: sticky;
   top: 40px;
   z-index: 20;
+}
+@media (max-width: 750px) {
+  .nitifi-sty {
+    height: 50px;
+  }
+  .navbar-sty {
+    top: 50px;
+  }
+  .static-nav {
+    flex-direction: column;
+  }
 }

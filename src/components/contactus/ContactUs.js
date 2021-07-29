@@ -54,17 +54,17 @@ export default function ContactUs() {
           <div className="content">
             <p>
               {" "}
-              <ImLocation2 className="icons" /> No. 2, Karuvadikuppam Main Rd,
-              Senthamarai Nagar, Muthialpet, Puducherry, 605003
+              <ImLocation2 className="icons" /> No.10, Second Floor, 45 Feet Rd,
+              near HDFC Bank, Venkateshwara Nagar, Saram, Puducherry 605013
             </p>
             <p>
               {" "}
-              <GrMail className="icons" /> test@gmail.com
+              <GrMail className="icons" /> info@springnet.in
             </p>
 
             <p>
               {" "}
-              <FaMobileAlt className="icons" /> +01 123456789
+              <FaMobileAlt className="icons" /> 0413-2238675
             </p>
           </div>
           <div className="content">
@@ -79,7 +79,7 @@ export default function ContactUs() {
             </p>
             <p>
               {" "}
-              <FaMobileAlt className="icons" /> +01 123456789
+              <FaMobileAlt className="icons" /> +61432782592
             </p>
           </div>
         </div>
