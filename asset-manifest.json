@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.7d759a84.chunk.css",
-    "main.js": "/static/js/main.30ebcb51.chunk.js",
-    "main.js.map": "/static/js/main.30ebcb51.chunk.js.map",
+    "main.css": "/static/css/main.7373774a.chunk.css",
+    "main.js": "/static/js/main.e7dbee3e.chunk.js",
+    "main.js.map": "/static/js/main.e7dbee3e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5c7571c3.js",
     "runtime-main.js.map": "/static/js/runtime-main.5c7571c3.js.map",
     "static/css/2.d5e620ed.chunk.css": "/static/css/2.d5e620ed.chunk.css",
-    "static/js/2.4f8d7e61.chunk.js": "/static/js/2.4f8d7e61.chunk.js",
-    "static/js/2.4f8d7e61.chunk.js.map": "/static/js/2.4f8d7e61.chunk.js.map",
+    "static/js/2.4b6514e9.chunk.js": "/static/js/2.4b6514e9.chunk.js",
+    "static/js/2.4b6514e9.chunk.js.map": "/static/js/2.4b6514e9.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d5e620ed.chunk.css.map": "/static/css/2.d5e620ed.chunk.css.map",
-    "static/css/main.7d759a84.chunk.css.map": "/static/css/main.7d759a84.chunk.css.map",
-    "static/js/2.4f8d7e61.chunk.js.LICENSE.txt": "/static/js/2.4f8d7e61.chunk.js.LICENSE.txt",
+    "static/css/main.7373774a.chunk.css.map": "/static/css/main.7373774a.chunk.css.map",
+    "static/js/2.4b6514e9.chunk.js.LICENSE.txt": "/static/js/2.4b6514e9.chunk.js.LICENSE.txt",
     "static/media/Flutterf.13436c61.png": "/static/media/Flutterf.13436c61.png",
     "static/media/android.9e79cf38.png": "/static/media/android.9e79cf38.png",
     "static/media/angular.283469e1.png": "/static/media/angular.283469e1.png",
@@ -28,6 +28,7 @@
     "static/media/html5.f15d7df9.png": "/static/media/html5.f15d7df9.png",
     "static/media/javascript.8739b01d.png": "/static/media/javascript.8739b01d.png",
     "static/media/jquery.59f3d464.png": "/static/media/jquery.59f3d464.png",
+    "static/media/map.00eed405.svg": "/static/media/map.00eed405.svg",
     "static/media/muilt vendor.3faffa42.jpg": "/static/media/muilt vendor.3faffa42.jpg",
     "static/media/mysql.9abb470b.png": "/static/media/mysql.9abb470b.png",
     "static/media/oa.f3760f2a.png": "/static/media/oa.f3760f2a.png",
@@ -41,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.5c7571c3.js",
     "static/css/2.d5e620ed.chunk.css",
-    "static/js/2.4f8d7e61.chunk.js",
-    "static/css/main.7d759a84.chunk.css",
-    "static/js/main.30ebcb51.chunk.js"
+    "static/js/2.4b6514e9.chunk.js",
+    "static/css/main.7373774a.chunk.css",
+    "static/js/main.e7dbee3e.chunk.js"
   ]
 }
