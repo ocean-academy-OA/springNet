@@ -13,12 +13,12 @@ export default function WorkCards({ work }) {
         </div>
         <div className="sub-content">
           <div className="used-technology">
-            <span className="lable">Techonologies used : </span>
+            <span className="lable">Tools and Techonologies : </span>
             {work.technologies}
           </div>
 
           <div className="category">
-            <span className="lable">Category : </span>
+            <span className="lable">Domains : </span>
             {work.category}
           </div>
 

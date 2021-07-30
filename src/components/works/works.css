@@ -93,6 +93,7 @@
 }
 .visit-button {
   width: 30%;
+  background-color: var(--main-color);
 }
 .slid-div {
   display: flex;

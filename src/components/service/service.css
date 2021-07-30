@@ -79,14 +79,14 @@
 }
 
 .service-title {
-  background-color: var(--main-color);
   border-radius: 5px;
   padding: 0 10px;
   position: relative;
   margin-top: 20px;
   font-size: 25px;
-  color: white;
+  color: var(--main-color);
   margin-bottom: 10px;
+  font-weight: 800;
 }
 
 .service-subtitle {
