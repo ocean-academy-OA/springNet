@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/static/css/main.6e1b6636.chunk.css",
-    "main.js": "/static/js/main.826df2f0.chunk.js",
-    "main.js.map": "/static/js/main.826df2f0.chunk.js.map",
+    "main.css": "/static/css/main.cbe650a4.chunk.css",
+    "main.js": "/static/js/main.bc3501dc.chunk.js",
+    "main.js.map": "/static/js/main.bc3501dc.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.5c7571c3.js",
     "runtime-main.js.map": "/static/js/runtime-main.5c7571c3.js.map",
     "static/css/2.d5e620ed.chunk.css": "/static/css/2.d5e620ed.chunk.css",
-    "static/js/2.6c93d94c.chunk.js": "/static/js/2.6c93d94c.chunk.js",
-    "static/js/2.6c93d94c.chunk.js.map": "/static/js/2.6c93d94c.chunk.js.map",
+    "static/js/2.0178b513.chunk.js": "/static/js/2.0178b513.chunk.js",
+    "static/js/2.0178b513.chunk.js.map": "/static/js/2.0178b513.chunk.js.map",
     "index.html": "/index.html",
     "static/css/2.d5e620ed.chunk.css.map": "/static/css/2.d5e620ed.chunk.css.map",
-    "static/css/main.6e1b6636.chunk.css.map": "/static/css/main.6e1b6636.chunk.css.map",
-    "static/js/2.6c93d94c.chunk.js.LICENSE.txt": "/static/js/2.6c93d94c.chunk.js.LICENSE.txt",
+    "static/css/main.cbe650a4.chunk.css.map": "/static/css/main.cbe650a4.chunk.css.map",
+    "static/js/2.0178b513.chunk.js.LICENSE.txt": "/static/js/2.0178b513.chunk.js.LICENSE.txt",
     "static/media/Flutterf.13436c61.png": "/static/media/Flutterf.13436c61.png",
     "static/media/android.9e79cf38.png": "/static/media/android.9e79cf38.png",
     "static/media/angular.283469e1.png": "/static/media/angular.283469e1.png",
@@ -42,8 +42,8 @@
   "entrypoints": [
     "static/js/runtime-main.5c7571c3.js",
     "static/css/2.d5e620ed.chunk.css",
-    "static/js/2.6c93d94c.chunk.js",
-    "static/css/main.6e1b6636.chunk.css",
-    "static/js/main.826df2f0.chunk.js"
+    "static/js/2.0178b513.chunk.js",
+    "static/css/main.cbe650a4.chunk.css",
+    "static/js/main.bc3501dc.chunk.js"
   ]
 }
