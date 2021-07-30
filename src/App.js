@@ -30,7 +30,7 @@ function App() {
             </a>
             <a href="" className="contact-link">
               {" "}
-              <FaMobileAlt className="icons" /> +01 123456789
+              <FaMobileAlt className="icons" /> +61432782592
             </a>
           </div>
         </div>

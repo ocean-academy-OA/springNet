@@ -7,9 +7,12 @@ import ContactUs from "../contactus/ContactUs";
 import ContactModel from "../ContactModel";
 import { FiArrowDownCircle } from "react-icons/fi";
 import GetQuote from "../contactus/GetQuot";
+import Recaptcha from "react-recaptcha";
+// 6Ld7fMwbAAAAAOcuJRg51D73MYRgL0ljduScjTyf
 
 export default function Home() {
   const firestore = firebase.firestore();
+  const [recaptcha, setRecaptcha] = useState(false);
 
   const [information, setInformation] = useState({
     name: "",
@@ -30,30 +33,58 @@ export default function Home() {
   };
   const onSubmit = (e) => {
     e.preventDefault();
+    if (recaptcha) {
+      try {
+        firestore.collection("springnet contact").add(information);
+        setInformation({
+          ...information,
+          name: "",
+          email: "",
+          address: "",
+          phoneNumber: "",
+          comment: "",
+          address2: "",
+          city: "",
+          state: "",
+          zip: "",
+        });
 
-    console.log(information);
-    try {
-      firestore.collection("springnet contact").add(information);
-      setInformation({
-        ...information,
-        name: "",
-        email: "",
-        address: "",
-        phoneNumber: "",
-        comment: "",
-        address2: "",
-        city: "",
-        state: "",
-        zip: "",
-      });
-
-      setSmShow(false);
-    } catch (e) {
-      alert("somthing went wrong");
-      console.log(e);
+        setSmShow(false);
+      } catch (e) {
+        alert("somthing went wrong");
+        console.log(e);
+      }
+    } else {
+      alert("Please verify that you are a human!");
     }
   };
+  function callback() {
+    if (recaptcha) {
+      setRecaptcha(false);
+    }
+  }
+  function verifyCallback(respons) {
+    if (respons) {
+      setRecaptcha(true);
+    }
+  }
   const [smShow, setSmShow] = useState(false);
+  function modalClose() {
+    setInformation({
+      ...information,
+      name: "",
+      email: "",
+      address: "",
+      phoneNumber: "",
+      comment: "",
+      address2: "",
+      city: "",
+      state: "",
+      zip: "",
+    });
+
+    setSmShow(false);
+  }
   return (
     <div className="home-container" id="home">
       <div className="opacity-bg">
@@ -67,7 +98,7 @@ export default function Home() {
         <Modal
           size="lg"
           show={smShow}
-          onHide={() => setSmShow(false)}
+          onHide={() => modalClose()}
           aria-labelledby="cantact-form"
         >
           <Modal.Header closeButton>
@@ -242,7 +273,22 @@ export default function Home() {
                         Enter your Comment
                       </Form.Control.Feedback>
                     </Form.Group>
-                    <Button variant="primary" type="submit">
+
+                    <Recaptcha
+                      className="captcha-widget"
+                      size="normal"
+                      sitekey=" 6Ld7fMwbAAAAAOcuJRg51D73MYRgL0ljduScjTyf"
+                      render="explicit"
+                      onloadCallback={callback}
+                      verifyCallback={verifyCallback}
+                      badge="inline"
+                    />
+
+                    <Button
+                      className="d-inline"
+                      variant="primary"
+                      type="submit"
+                    >
                       Submit
                     </Button>
                   </Form>
