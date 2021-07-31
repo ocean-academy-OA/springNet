@@ -54,3 +54,18 @@ code {
     flex-direction: column;
   }
 }
+
+@media (max-width: 404px) {
+  .contact-link {
+    margin: 3px 5px;
+  }
+  .contact-link img {
+    margin: 3px 5px;
+  }
+  .nitifi-sty {
+    height: 70px;
+  }
+  .navbar-sty {
+    top: 70px;
+  }
+}

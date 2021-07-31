@@ -137,11 +137,16 @@ body::-webkit-scrollbar-thumb {
 
 @media (max-width: 800px) {
   .about-content-div {
-    width: calc((100vw / 1.2));
+    width: calc((100vw / 1.1));
+  }
+}
+@media (max-width: 400px) {
+  .about-content-div {
+    width: calc((100vw));
   }
 }
 .about-content-div p {
-  margin: 10px 20px;
+  margin: 10px 10px;
   /* color: var(--secondery-color); */
   color: white;
   font-size: 20px;
@@ -293,15 +298,24 @@ body::-webkit-scrollbar-thumb {
   text-align: center;
   background-color: rgb(224, 224, 224);
 }
+@media (max-width: 800px) {
+  .footer-text {
+    flex-direction: column;
+  }
+}
 .footer-text {
   color: var(--secondery-color);
   display: flex;
   justify-content: space-around;
+
   align-items: center;
 }
 .footer-text p {
   position: relative;
   top: 10px;
+}
+.footer-text .links {
+  margin: 15px 0;
 }
 .footer-text .links a {
   margin: 0 15px;

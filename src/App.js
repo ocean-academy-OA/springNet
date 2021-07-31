@@ -15,7 +15,7 @@ function App() {
           <div className="branch">
             <a href="" className="contact-link">
               <img src={UAS} alt="" width="30" /> <GrMail className="icons" />{" "}
-              test@gmail.com
+              info@springnet.in
             </a>
             <a href="" className="contact-link">
               {" "}
@@ -26,7 +26,7 @@ function App() {
             <img src={AUS} alt="" width="30" />
             <a href="" className="contact-link">
               {" "}
-              <GrMail className="icons" /> test@gmail.com
+              <GrMail className="icons" /> support@support.in
             </a>
             <a href="" className="contact-link">
               {" "}
