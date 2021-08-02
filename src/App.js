@@ -26,7 +26,7 @@ function App() {
             <img src={AUS} alt="" width="30" />
             <a href="" className="contact-link">
               {" "}
-              <GrMail className="icons" /> support@support.in
+              <GrMail className="icons" /> support@springnet.in
             </a>
             <a href="" className="contact-link">
               {" "}
