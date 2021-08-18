@@ -44,10 +44,6 @@ export default function ContactUs() {
 
             <p>
               {" "}
-              <GrMail className="icons" /> test@gmail.com{" "}
-            </p>
-            <p>
-              {" "}
               <FaMobileAlt className="icons" /> +1 (614) 632-9349
             </p>
           </div>
@@ -73,10 +69,7 @@ export default function ContactUs() {
               <ImLocation2 className="icons" /> 4/65 Press Road Brooklyn Park
               SA-5032, Australia{" "}
             </p>
-            <p>
-              {" "}
-              <GrMail className="icons" /> test@gmail.com{" "}
-            </p>
+
             <p>
               {" "}
               <FaMobileAlt className="icons" /> +61432782592
