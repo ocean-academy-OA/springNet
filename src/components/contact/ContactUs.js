@@ -17,7 +17,7 @@ export default function ContactUs() {
           <div className="info-icon">
             <FaPhone />
           </div>
-          <div className="info-text">0413-2238675</div>
+          <div className="info-text">0413-2240580</div>
         </div>
         <div className="info-content">
           <div className="info-icon">

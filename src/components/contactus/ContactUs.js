@@ -60,7 +60,7 @@ export default function ContactUs() {
 
             <p>
               {" "}
-              <FaMobileAlt className="icons" /> 0413-2238675
+              <FaMobileAlt className="icons" /> 0413-2240580
             </p>
           </div>
           <div className="content">
